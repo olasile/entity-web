@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light ps-4 mb-4">
+  <div class="container-fluid">
+    <%= link_to 'Firekamp', root_path, class: 'navbar-brand' %>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'Entities', entities_path, class: 'nav-link' %>
+        </li>
+
+        <li class="nav-item">
+          <%= link_to 'Entity Fields', entity_fields_path, class: 'nav-link' %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

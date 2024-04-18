@@ -1,0 +1,3 @@
+<%= form_for @entity_field_form, url: entity_field_path(@entity_field_form.id), method: :put do |f| %>
+  <%= render partial: 'entity/fields/form', locals: { f: f } %>
+<% end %>
